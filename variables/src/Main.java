@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        String note = "Bugün Hava Çok Güzel";
+       String msg = "Öğrenci Sayısı";
+       int stdCount = 12;
 
-        System.out.println(note.replaceAll("\\s",""));
+        System.out.println(msg + stdCount);
     }
 }
