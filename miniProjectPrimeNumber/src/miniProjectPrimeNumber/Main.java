@@ -2,20 +2,25 @@ package miniProjectPrimeNumber;
 
 public class Main {
 
-	public static void main(String[] args) {
-		int number = 25;
-		int remainder = number % 2;
+    public static void main(String[] args) {
+        int number = 25;
+        int remainder = number % 2;
+        System.out.println(remainder);
 
-		if (remainder != 0 || number > 0) {
-			System.out.println("Sayı asaldır.");
-		} else if (remainder == 0 || number > 0) {
-			System.out.println("Sayı asal değildir.");
-		} else {
-			System.out.println("Girilen sayı pozitif değildir.");
-		}
+        boolean isPrime = true;
 
-		System.out.println(remainder);
+        for (int i=2;i<number;i++){
+            if(number%i==0){
+                isPrime = false;
+            }
+        }
+        if(isPrime){
+            System.out.println("Sayı Asaldır.");
+        }else {
+            System.out.println("Sayı Asal Değildir.");
+        }
 
-	}
+
+    }
 
 }
