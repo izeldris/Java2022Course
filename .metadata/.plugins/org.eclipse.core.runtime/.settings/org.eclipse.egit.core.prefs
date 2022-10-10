@@ -1,6 +1,8 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=C\:\\Users\\harun\\git\\Java2022Course\\.git;C\:\\java\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\harun\\git\\Java2022Course\\.git;.git;
 RepositoryGroups.uuids=
-RepositorySearchDialogSearchPath=C\:\\Users\\harun\\git
+RepositorySearchDialogDeepSearch=false
+RepositorySearchDialogSearchPath=C\:\\Users\\harun\\git\\JavaCourse2022
+RepositorySearchDialogSkipHidden=false
 core_ssh_default_agent=\\\\.\\pageant
 eclipse.preferences.version=1
